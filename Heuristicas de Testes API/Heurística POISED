@@ -1,0 +1,34 @@
+# Heurística POISED para testes de Rest API
+
+Heurísticas são atalhos cognitivos que nos auxiliam a resolver problemas que outras pessoas já passaram e mapearam como resolver. Em teste de software temos várias heuríticas sobre como testar diferentes aplicações. Uma delas é a VADER para testes de API Rest.
+
+POISED -> Parâmetros, Saída (Output), Interoperabilidade (Interop), Segurança (Security), Erros e Dados.
+
+Seguindo essa heurística já sabemos o que precisamos testar dentro de cada um desses grupos:
+
+## P - Parâmetros
+
+Ao projetar uma API, considere cuidadosamente os parâmetros de entrada que ela requer. Mantenha os parâmetros simples, intuitivos e relevantes para o propósito da API. Busque consistência nos nomes e convenções de tipo. Evite expor detalhes desnecessários e busque um design minimalista
+
+## O - Saída
+
+Projetar a API para retornar uma saída clara e estruturada. Utilize formatos de dados consistentes, como JSON ou XML, e forneça mensagens de erro significativas ou códigos de status apropriados. Certifique-se de que a resposta esteja bem documentada, para que os desenvolvedores saibam o que esperar.
+
+## I - Interoperabilidade
+
+ Garanta que sua API seja facilmente interoperável com outros sistemas e plataformas. Siga padrões e convenções amplamente adotados para a troca de dados, autenticação e protocolos de comunicação. Considere a possibilidade de versionar sua API para permitir atualizações graduais sem comprometer os clientes existentes.
+
+## S - Segurança
+
+A segurança da API é fundamental. Implemente mecanismos adequados de autenticação e autorização para controlar o acesso a recursos sensíveis. Use HTTPS para criptografar os dados transmitidos entre o cliente e o servidor. Empregue as melhores práticas para evitar vulnerabilidades de segurança comuns, como ataques de injeção, cross-site scripting (XSS) e cross-site request forgery (CSRF).
+
+## E - Erros
+
+Planeje o tratamento e relato adequado de erros em sua API. Retorne mensagens de erro informativas com códigos de status HTTP apropriados para ajudar os desenvolvedores a entender e resolver problemas. Documente os possíveis cenários de erro e forneça orientações sobre como lidar com eles
+
+## D - Dados
+
+Projete sua API para manipular dados de forma segura e eficiente. Valide os dados recebidos para evitar entradas maliciosas ou incorretas. Ofereça os dados em um formato estruturado e consistente, evitando respostas excessivamente complexas que possam dificultar as aplicações dos clientes.
+
+Referência.
+https://twitter.com/marianneduijst/status/965577461860896768?s=20
