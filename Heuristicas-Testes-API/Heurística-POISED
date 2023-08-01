@@ -1,6 +1,6 @@
 # Heurística POISED para testes de Rest API
 
-Heurísticas são atalhos cognitivos que nos auxiliam a resolver problemas que outras pessoas já passaram e mapearam como resolver. Em teste de software temos várias heuríticas sobre como testar diferentes aplicações. Uma delas é a VADER para testes de API Rest.
+Heurísticas são atalhos cognitivos que nos auxiliam a resolver problemas que outras pessoas já passaram e mapearam como resolver. Em teste de software temos várias heurísticas sobre como testar diferentes aplicações. Uma delas é a VADER para testes de API Rest.
 
 POISED -> Parâmetros, Saída (Output), Interoperabilidade (Interop), Segurança (Security), Erros e Dados.
 
